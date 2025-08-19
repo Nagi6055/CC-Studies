@@ -72,15 +72,39 @@ Information Assurance: The measure of information security or the extent to whic
 
 Elements of a Typical Cyberattack:
 
-Conduct Research
+    1. Conduct Research: An attack to gather as much information as possible about the target to be able to carry out the attack.
+          - Domain Names
+          - Corporate and Financial Information
+          - Names of Employees and key Managers
+          - E-mail addresses and phone numbers
+          - Social media activity and friends
+          - Facility locations and layouts
+          - Ingress/Egress details
 
-Identify Targets
+    2. Identify Targets: Attacker attempts to identify specific targets such as people, organizations, departments, facilities, capabilities, data, vendor names, and information systems.
+                         Gathering all their information assets and their vilnerabilities that can be exploited.
 
-Exploit Targets
+    3. Exploit Targets: Attackers design and execute attacks by probing and taking advantage of specific vulnerabilities to gain unauthorized access to the enterprise.
+          - Phishing: Obtaining sensitive information by disguising oneself as a trusted entity, usually in e-mails.
+          - Fake Websites: Used for harvesting sensitive information (credentials)
+          - Malware: Software that intentionally is harmful and malicious.
+          - Virus: A type of malware that is usually hidden inside another application.
+          - Trojan: A virus disguised as something useful.
+          - Worm: A virus that propagates itself to other systems.
+          - Rootkit: A virus that hides itself by modifying the operating system.
+          - Social Engineering: Tricking someone into doing something that is not in their best interest.
+          - Scripting: Manipulating data entered into fields to produce unintended results.
+          - Vulnerability-specific attacks: Exploiting software defects.
 
-Do Bad Things
+    4. Do Bad Things: The attacker gains access and do variety things to expand access laterally throughout the network to explore and discovermore systems and data to gain deeper access and
+                      perform more attacks.
+          - Stealing Data (compromise of confidentiality)
+          - Modifying Data (compromise of integrity)
+          - Destroying Data (compromise of availability)
 
+==============================
 3. Security Program Components
+==============================
 
 Risk Management
 
@@ -88,7 +112,9 @@ Security Governance
 
 Security Controls
 
+=============================
 4. Types of Security Controls
+=============================
 
 Administrative Controls
 
@@ -104,7 +130,9 @@ Physical Controls
 
 Examples: locks, mantraps, surveillance cameras, badge readers, alarms, lighting, bollards, fire extinguishers
 
+============================
 5. Ethics & Professionalism
+============================
 
 (ISC)² Code of Ethics
 
