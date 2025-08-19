@@ -1,1 +1,89 @@
-***text*** 
+Key Vocabulary from Chapter 1: "Security Principles"
+
+-----------------------------------------------------------------------------
+
+1. Fundamental Concepts
+======================= 
+
+Cybersecurity: The practice of protecting information resources from unauthorized use.
+
+CIA Triad (Confidentiality, Integrity, Availability) 
+
+  - Confidentiality: The secrecy of the information within the asset being protected only accessible to authorized people, systems, or processes.
+    Ex : 
+  - Integrity: Keeping information correct and unaltered, preventing unauthorized changes.
+    Ex :
+  - Availability: Ensures that systems, data, and resources are accessible to authorized users whenever needed.
+    Ex :
+
+Access Control: Processes, tools, or coonfugur5ation settings that ensure that access to data is restricted to only those individuals whao are authorized to access it.
+
+Authentication: The method which systems verify that a user whos is requesting access to a resource really is who they claim to be.
+
+  Identification: 
+  Verification:
+
+  single-factor authentication:
+  two-factor authentication:
+  multifactor authentication:
+
+    Types:
+      1.something you know
+        Ex: password
+      2.something you have
+        Ex:smart card
+      3.something you are
+        Ex:biometric fingerprint
+
+Message Authenticity
+
+Nonrepudiation
+
+Privacy
+
+Information Assurance
+
+2. Cyberattack Fundamentals
+============================
+
+Elements of a Typical Cyberattack:
+
+Conduct Research
+
+Identify Targets
+
+Exploit Targets
+
+Do Bad Things
+
+3. Security Program Components
+
+Risk Management
+
+Security Governance
+
+Security Controls
+
+4. Types of Security Controls
+
+Administrative Controls
+
+Technical Controls (aka Logical Controls)
+
+Technical Data Security Controls (e.g., encryption at rest/in transit)
+
+Technical Access Controls (e.g., MFA, biometrics, permissions)
+
+Network Security Controls (e.g., IDS, IPS, firewalls, antivirus, SIEM)
+
+Physical Controls
+
+Examples: locks, mantraps, surveillance cameras, badge readers, alarms, lighting, bollards, fire extinguishers
+
+5. Ethics & Professionalism
+
+(ISC)² Code of Ethics
+
+Preamble
+
+Canons
