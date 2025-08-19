@@ -7,14 +7,26 @@ Key Vocabulary from Chapter 1: "Security Principles"
 
 Cybersecurity: The practice of protecting information resources from unauthorized use.
 
-CIA Triad (Confidentiality, Integrity, Availability) 
+CIA Triad (Confidentiality, Integrity, Availability): 
 
   - Confidentiality: The secrecy of the information within the asset being protected only accessible to authorized people, systems, or processes.
-    Ex : 
+
+    Ex : A hospital stores patient medical records in a database. To ensure confidentiality, only doctors and nurses directly involved in a patient’s care are granted access to those records.
+         Access is controlled using role-based access control (RBAC) and protected by multi-factor authentication (MFA). If an unauthorized person—such as a receptionist or an outsider—tries to 
+         view the patient’s medical history, the system denies access. This protects sensitive information (like diagnoses or treatments) from disclosure to anyone who doesn’t have a legitimate need to know.
+
   - Integrity: Keeping information correct and unaltered, preventing unauthorized changes.
-    Ex :
+
+    Ex : An online retail company stores customer orders in its database. To ensure integrity, the system uses checksums and hashing to verify that order details (such as product IDs, quantities, and shipping addresses)
+         are not altered during transmission between the customer’s browser and the company’s servers.If a hacker tries to intercept the data and change the order (for example, modifying the quantity of items or changing
+         the delivery address), the hash values will no longer match. The system will detect the tampering and reject the modified data, preserving the accuracy and trustworthiness of the records.
+
   - Availability: Ensures that systems, data, and resources are accessible to authorized users whenever needed.
-    Ex :
+
+    Ex : A financial institution provides online banking services to its customers. To ensure availability, the bank uses redundant servers in different geographic locations and employs load balancers to distribute traffic.
+         If one data center experiences a power outage or hardware failure, customer requests are automatically rerouted to a backup site. This prevents downtime and ensures that customers can still log in, transfer funds, and
+         pay bills without interruption.
+
 
 Access Control: Processes, tools, or coonfugur5ation settings that ensure that access to data is restricted to only those individuals whao are authorized to access it.
 
