@@ -2,6 +2,7 @@ Key Vocabulary from Chapter 1: "Security Principles"
 
 -----------------------------------------------------------------------------
 
+=======================
 1. Fundamental Concepts
 ======================= 
 
@@ -32,12 +33,16 @@ Access Control: Processes, tools, or coonfugur5ation settings that ensure that a
 
 Authentication: The method which systems verify that a user whos is requesting access to a resource really is who they claim to be.
 
-  Identification: 
-  Verification:
+  Identification: The first step in the access control process of claiming or asserting an identity within a system where a user provides a unique identifier—such as a username, ID number, or smart card—to declare who they are before authentication and authorization occur.
+    Ex : When an employee logs into a company’s secure portal, they type in their username (e.g., j.smith@company.com). This action identifies the user to the system.
 
-  single-factor authentication:
-  two-factor authentication:
-  multifactor authentication:
+  Verification: The process of confirming that information, data, or an action is correct, accurate, and valid. Also is often used to check the authenticity of user credentials, the integrity of data, or that security controls are working as intended.
+                It ensures that what is presented or transmitted is trustworthy and unchanged.
+    Ex : When a user enters their password during login, the system verifies it by comparing the entered password’s hash against the stored hash in the database. If they match, the password is confirmed as valid.
+
+  single-factor authentication: The use of one authentication factor.
+  two-factor authentication: The use of two authentication factors. 
+  multifactor authentication: The use of multiple (two or more) factors of authentication.
 
     Types:
       1.something you know
@@ -47,14 +52,21 @@ Authentication: The method which systems verify that a user whos is requesting a
       3.something you are
         Ex:biometric fingerprint
 
-Message Authenticity
+Message Authenticity: Message Authenticity is the assurance that a message truly comes from the claimed sender and has not been altered in transit. 
+                      It confirms the source of the information and often relies on techniques such as digital signatures, certificates, and encryption.
 
-Nonrepudiation
+    Ex : A company’s CEO sends an email approving a financial transaction. To ensure message authenticity, the email is digitally signed with the CEO’s private key.
+         When the finance team receives the email, their system uses the CEO’s public key to verify the digital signature. If it matches, they can trust that the message 
+         was genuinely sent by the CEO and has not been modified.
 
-Privacy
+Nonrepudiation: Ensures a person or a system cannot deny actions they performed.
+    Ex : Sending a message or signing a document.
 
-Information Assurance
+Privacy: The ability of an individual or entity to hide information about themselves from others.
 
+Information Assurance: The measure of information security or the extent to which information security is achieved or implemented.
+
+============================
 2. Cyberattack Fundamentals
 ============================
 
