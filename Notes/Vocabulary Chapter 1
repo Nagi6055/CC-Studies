@@ -106,7 +106,10 @@ Elements of a Typical Cyberattack:
 3. Security Program Components
 ==============================
 
-Risk Management
+Risk Management: The ongoing process of identifying, assessing, and prioritizing risks to an organization’s information systems, followed by implementing strategies to reduce those risks to an acceptable level.
+                 It ensures that security decisions are based on business objectives, threat likelihood, potential impact, and available resources.
+      Ex: An organization identifies that storing customer data on an outdated server creates a high risk of data loss due to hardware failure. As part of risk management, the company decides to migrate the data to a 
+          secure cloud service with redundancy and backup features, thereby reducing the risk to an acceptable level.
 
 Security Governance
 
