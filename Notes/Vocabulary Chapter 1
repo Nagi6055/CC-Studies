@@ -111,9 +111,85 @@ Risk Management: The ongoing process of identifying, assessing, and prioritizing
       Ex: An organization identifies that storing customer data on an outdated server creates a high risk of data loss due to hardware failure. As part of risk management, the company decides to migrate the data to a 
           secure cloud service with redundancy and backup features, thereby reducing the risk to an acceptable level.
 
-Security Governance
+Security Governance and Management: 
 
-Security Controls
+Security Controls: 
+
+Professional Ethics:
+
+Compromise:
+
+Vulnerability:
+
+    1. Application Vulnerabilities:
+
+    2. Unpatched Systems:
+
+    3. Misconfigured Devices:
+
+    4. Improperly Trained Users:
+
+Vulnerability Assessment:
+
+Threat:
+
+    1. Cyberattacks
+
+    2. Social Engineering
+
+    3. Natural Disasters
+
+    4. Physical Intrusion
+
+Threat Actors: 
+
+    1. Cyber Criminals (hackers)
+
+    2. Criminal Groups
+
+    3. Nation-States
+
+    4. Terroist Groups
+
+    5. Insiders
+
+Risk:
+
+Exposure:
+
+Security Control (Countermeasure):
+
+-ISC² advocates a three-step risk management process:
+
+    1. Risk identification (framing the risk)
+
+    2. Risk assessment (understanding the risk)
+
+    3. Risk treatment (taking action on what to do about the risk)
+
+Risk Identification:
+
+Risk Assessment:
+
+    - Quantitative Risk Assessment
+
+    - Qualitative Risk Assesment
+
+
+Quantitative Methods:
+
+    1. Asset Value
+
+    2. Threat Probability
+
+    3. Vulnerability
+
+    4. Impact of Loss
+
+    5. Cost of countermeasures or controls
+
+
+
 
 =============================
 4. Types of Security Controls
