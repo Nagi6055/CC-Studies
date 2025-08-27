@@ -111,27 +111,47 @@ Risk Management: The ongoing process of identifying, assessing, and prioritizing
       Ex: An organization identifies that storing customer data on an outdated server creates a high risk of data loss due to hardware failure. As part of risk management, the company decides to migrate the data to a 
           secure cloud service with redundancy and backup features, thereby reducing the risk to an acceptable level.
 
-Security Governance and Management: 
+Security Governance and Management:The framework of policies, procedures, and processes that guide how an organization establishes, implements, and monitors its information security program.
+      - Governance: Governance provides the direction and oversight from senior leadership to ensure security aligns with business objectives, regulatory requirements, and risk tolerance.
+      - Management: Management is the execution of those policies through day-to-day operations, controls, and monitoring.
 
-Security Controls: 
+    Ex: A company’s board of directors (governance) mandates compliance with industry regulations such as HIPAA for protecting health data. The IT security team (management) then creates access 
+        control policies, trains employees on handling sensitive data, and deploys monitoring tools to ensure compliance and reduce risk.
 
-Professional Ethics:
+Security Controls: Security controls are safeguards or countermeasures whether administrative, technical, or physical implemented to protect an organization’s information systems and data. Their purpose is to reduce risk, enforce 
+                   security policies, and ensure the confidentiality, integrity, and availability (CIA) of information.
 
-Compromise:
+    Ex: An organization enforces multi-factor authentication (MFA) (a technical control) for remote access. This helps prevent unauthorized users from logging into the system even if a password is stolen, thereby reducing the risk of a data breach.
 
-Vulnerability:
+Professional Ethics: Professional ethics refers to the standards of behavior, integrity, and responsibility that cybersecurity professionals are expected to uphold when performing their duties. It ensures that security practitioners act honestly, protect
+                     sensitive information, avoid conflicts of interest, follow laws and regulations, and prioritize the trust and safety of stakeholders. Ethical conduct builds credibility and reinforces the security profession. 
 
-    1. Application Vulnerabilities:
+    Ex: A cybersecurity analyst discovers a critical vulnerability in a company’s system. Instead of exploiting or selling this information, the analyst follows proper disclosure procedures and reports it through internal channels so it can be fixed—demonstrating professional ethics.
 
-    2. Unpatched Systems:
+Compromise: is the unauthorized disclosure, modification, destruction, or loss of data, or the loss of control over an information system. It occurs when a threat actor successfully bypasses security measures, leading to a breach of confidentiality, integrity, or 
+            availability (CIA) of information.
 
-    3. Misconfigured Devices:
+    Ex: An attacker gains access to an employee’s email account through a phishing attack. The attacker then reads sensitive internal communications and uses the account to send malicious emails. This situation represents a compromise of the organization’s email system.
 
-    4. Improperly Trained Users:
+Vulnerability: is a weakness or flaw in a system, application, process, or control that could be exploited by a threat actor to compromise the confidentiality, integrity, or availability (CIA) of information. Vulnerabilities can result from misconfigurations, coding errors, lack of 
+               security controls, or human mistakes.
 
-Vulnerability Assessment:
+    Ex: A web application has a coding flaw that allows SQL injection. If an attacker discovers and exploits this vulnerability, they could gain unauthorized access to the organization’s customer database.
 
-Threat:
+
+    1. Application Vulnerabilities: is a flaw, weakness, or misconfiguration in software that can be exploited by a threat actor to gain unauthorized access, manipulate data, or disrupt the application’s normal functions.
+
+    2. Unpatched Systems: are devices, applications, or software that have known security flaws because updates, patches, or fixes from the vendor have not been applied.
+
+    3. Misconfigured Devices: are systems, applications, or network components that have incorrect, incomplete, or insecure settings, leaving them vulnerable to unauthorized access or exploitation. These misconfigurations often occur due to default passwords, open ports, excessive permissions, or 
+       failure to apply proper security policies.
+
+    4. Improperly Trained Users: are individuals within an organization who lack sufficient knowledge of security policies, procedures, and best practices. This lack of training increases the risk of human error, social engineering attacks, and unintentional violations of security controls, making users 
+       one of the most common points of failure in cybersecurity.
+
+Vulnerability Assessment: is a systematic process of identifying, analyzing, and prioritizing security weaknesses in an organization’s systems, applications, or networks. The goal is to detect vulnerabilities before they can be exploited and to recommend remediation or mitigation strategies to reduce risk.
+
+Threat: is any potential danger or event that can exploit a vulnerability in an information system, application, or network, potentially causing harm to the confidentiality, integrity, or availability (CIA) of data. Threats can be intentional (malicious attacks) or unintentional (natural disasters, human error).
 
     1. Cyberattacks
 
@@ -141,7 +161,7 @@ Threat:
 
     4. Physical Intrusion
 
-Threat Actors: 
+Threat Actors: are individuals, groups, or entities that intentionally or unintentionally carry out actions that can exploit vulnerabilities to harm an organization’s information systems, data, or networks. They can be classified based on their motives, capabilities, or origin, such as hackers, insiders, hacktivists, or nation-state actors.
 
     1. Cyber Criminals (hackers)
 
@@ -153,11 +173,11 @@ Threat Actors:
 
     5. Insiders
 
-Risk:
+Risk: is the potential for loss, damage, or harm to an organization’s information systems, data, or operations, resulting from the combination of a threat exploiting a vulnerability. It is typically assessed based on the likelihood of the event occurring and the potential impact on the organization.
 
-Exposure:
+Exposure: is the state of being open to potential harm or loss due to a vulnerability or weakness in an information system, network, or process. It represents the possibility that sensitive data, resources, or systems could be accessed, damaged, or compromised by a threat actor.
 
-Security Control (Countermeasure):
+Security Control (Countermeasure): is any administrative, technical, or physical safeguard implemented to reduce risk, protect assets, and enforce security policies. Controls are designed to prevent, detect, or correct security incidents, helping maintain the confidentiality, integrity, and availability (CIA) of information.
 
 -ISC² advocates a three-step risk management process:
 
@@ -167,13 +187,20 @@ Security Control (Countermeasure):
 
     3. Risk treatment (taking action on what to do about the risk)
 
-Risk Identification:
+Risk Identification: is the process of systematically recognizing and documenting potential threats, vulnerabilities, and exposures that could negatively impact an organization’s information systems, data, or operations. This step is the foundation of risk management, as it allows organizations to understand what risks exist before
+                     assessing or mitigating them.
 
-Risk Assessment:
+Risk Assessment: is the process of evaluating identified risks by analyzing the likelihood of a threat exploiting a vulnerability and the potential impact it could have on an organization. It helps prioritize which risks need to be addressed first and guides decision-making on appropriate security controls.
 
-    - Quantitative Risk Assessment
+    - Quantitative Risk Assessment: is a method of evaluating risk using numerical values to estimate the likelihood of a threat and the potential financial or operational impact of its occurrence. This approach provides measurable data to help organizations make informed decisions about risk mitigation and resource allocation.
 
-    - Qualitative Risk Assesment
+          AV x EF = SLE
+          Asset Value x Exposure Factor = Single Loss Expectancy
+
+          SLE x ARO = ALE
+          Single Loss Expectancy x Annualized Rate of Occurrence = Annualized Loss Expectency
+
+    - Qualitative Risk Assesment: is a method of evaluating risks based on non-numeric criteria, such as probability levels, severity, or impact ratings (e.g., high, medium, low). This approach uses expert judgment, historical data, and scenario analysis to prioritize risks when precise numerical data is unavailable.
 
 
 Quantitative Methods:
